@@ -7,7 +7,7 @@ form.addEventListener("submit",(event)=>{
     let email = document.getElementById('email').value
     let password = document.getElementById('password').value
     if(email && password){
-        window.location.href = "https://jubayerrahman.github.io/success.html"
+        window.location.href = "https://jubayerrahman.github.io/notbot-Task/success.html"
     }
 
 
