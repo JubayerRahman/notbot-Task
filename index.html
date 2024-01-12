@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>longin page - Jobayer Rahman Ohee</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/c74447f892.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="./script.js" defer></script>
+</head>
+<body class="lg:container mx-auto min-h-screen flex flex-col align-center justify-center mt-[20px] mb-[20px]">
+    <div class=" border-[2px] rounded-md w-[95%] lg:w-[40%] mx-auto">
+        <h1 class="text-center text-[28px] font-[300] border-b-[2px] p-[10px]">Login</h1>
+        <form id="form" class="p-[5%] flex flex-col gap-[20px]">
+            <div class="email flex flex-col">
+                <label for="email" class="text-[16px] font-[700] leading-[24px]">Your email:</label>
+                <input class="border-[2px] rounded-md text-xl py-[10px] px-[6px] duration-300 outline-none focus:border-[2px] focus:border-[#C4D9FB]" type="email" required placeholder="email" name="" id="email">
+            </div>
+            <div class="flex flex-col ">
+
+                <label for="password" class="text-[16px] font-[700] leading-[24px]">Your password:</label>
+                <input class="border-[2px] rounded-md text-xl py-[10px] px-[6px] duration-300 outline-none focus:border-[2px] focus:border-[#C4D9FB]" type="password" placeholder="password" required name="" id="password">
+            </div>
+                <div class="flex gap-[5px] flex">
+                    <input id="check" type="checkbox">
+                    <label class="text-[16px]" for="check">Remember me</label>
+                </div>
+                <button type="submit" id="loginButton" class="bg-[#1569EF] hover:bg-[#1259cb] text-[16px] text-white font-[400] rounded-md p-[10px]">
+                        Login &nbsp; <i class="text-[12px] fa-solid fa-arrow-right"></i> </button>
+                <div class="flex justify-center gap-[5px]">
+                    <h1 class="italic text-center text-[16px] bg-[gray] h-[1px] w-[40%] my-auto"></h1>
+                    <h1 class="italic text-center text-[16px] text-[#7F7C7D]">Or:</h1>
+                    <h1 class="italic text-center text-[16px] bg-[gray] h-[1px] w-[40%] my-auto"></h1>
+                </div>
+                <button class="border-[#1569EF] border-[1px] text-[16px] rounded-md p-[5px]"> <i class="fa-brands fa-google"></i> &nbsp; Login with Google</button>
+                <div class="flex justify-between">
+                    <h1 class="text-[14px] font-[400] text-[#1154bf]">Forgot your password?</h1>
+                    <h1 class="text-[14px] font-[400] text-[#1154bf]">Not Registered?</h1>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <h1>Designed by <a class="text-[#1154bf]" href="https://jobayerportfolio.netlify.app" target="_blank">Jobayer rahman Ohee</a></h1>
+</body>
+</html>
